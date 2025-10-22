@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import { Routes, Route, useNavigate, useParams } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faApple } from '@fortawesome/free-brands-svg-icons';
-import { faUniversity, faCubes, faBullseye, faCheckCircle, faChevronRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faUniversity, faCubes, faBullseye, faCheckCircle, faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import type { WalletData, Transaction } from './types';
 
 // Add icons to library
-library.add(faApple, faUniversity, faCubes, faBullseye, faCheckCircle, faChevronRight, faArrowLeft);
+library.add(faApple, faUniversity, faCubes, faBullseye, faCheckCircle, faChevronRight, faChevronLeft);
 
 function Home() {
   const [data, setData] = useState<WalletData | null>(null);
@@ -160,7 +160,7 @@ function TransactionDetail() {
   return (
     <div className="detail">
       <button className="back-button" onClick={() => navigate(-1)}>
-        <FontAwesomeIcon icon="arrow-left" />
+        <FontAwesomeIcon icon="chevron-left" />
       </button>
       <div className="large-amount">{signAmount}</div>
       <div className="name">{tx.name}</div>
