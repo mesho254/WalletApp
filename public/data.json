@@ -1,0 +1,133 @@
+{
+  "balance": {
+    "current": 17.30,
+    "limit": 1500.00
+  },
+  "paymentDue": false,
+  "dailyPoints": {
+    "today": 45000.00,
+    "formula": "Seasonal calculation"
+  },
+  "transactions": [
+    {
+      "id": 1,
+      "type": "Apple",
+      "amount": 14.06,
+      "name": "Apple",
+      "description": "Card Number Used",
+      "date": "2025-10-21",
+      "status": "Pending",
+      "authorizedBy": "Diana",
+      "totalAward": 0.4218,
+      "icon": "apple"
+    },
+    {
+      "id": 2,
+      "type": "Payment",
+      "amount": -174.00,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank National Assoc...",
+      "date": "2025-10-15",
+      "status": "Approved",
+      "authorizedBy": null,
+      "totalAward": 0.00,
+      "icon": "apple"
+    },
+    {
+      "id": 3,
+      "type": "Apple",
+      "amount": 3.24,
+      "name": "Apple",
+      "description": "Card Number Used",
+      "date": "2025-10-21",
+      "status": "Approved",
+      "authorizedBy": "Diana",
+      "totalAward": 0.0972,
+      "icon": "apple"
+    },
+    {
+      "id": 4,
+      "type": "Payment",
+      "amount": -99.71,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank National Assoc...",
+      "date": "2025-10-19",
+      "status": "Approved",
+      "authorizedBy": null,
+      "totalAward": 0.00,
+      "icon": "apple"
+    },
+    {
+      "id": 5,
+      "type": "Payment",
+      "amount": -73.58,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank National Assoc...",
+      "date": "2025-10-20",
+      "status": "Approved",
+      "authorizedBy": null,
+      "totalAward": 0.00,
+      "icon": "apple"
+    },
+    {
+      "id": 6,
+      "type": "Purchase",
+      "amount": 21.61,
+      "name": "IKEA",
+      "description": "Round Rock, TX",
+      "date": "2025-10-22",
+      "status": "Approved",
+      "authorizedBy": null,
+      "totalAward": 0.4322,
+      "icon": "cubes"
+    },
+    {
+      "id": 7,
+      "type": "Purchase",
+      "amount": 73.58,
+      "name": "Target",
+      "description": "Cedar Park, TX",
+      "date": "2025-10-22",
+      "status": "Approved",
+      "authorizedBy": null,
+      "totalAward": 1.4716,
+      "icon": "bullseye"
+    },
+    {
+      "id": 8,
+      "type": "Apple",
+      "amount": 19.99,
+      "name": "Apple",
+      "description": "Subscription",
+      "date": "2025-10-18",
+      "status": "Approved",
+      "authorizedBy": "Diana",
+      "totalAward": 0.5997,
+      "icon": "apple"
+    },
+    {
+      "id": 9,
+      "type": "Payment",
+      "amount": -56.78,
+      "name": "Payment",
+      "description": "Bank transfer",
+      "date": "2025-10-16",
+      "status": "Approved",
+      "authorizedBy": null,
+      "totalAward": 0.00,
+      "icon": "apple"
+    },
+    {
+      "id": 10,
+      "type": "Purchase",
+      "amount": 11.23,
+      "name": "Target",
+      "description": "Grocery purchase",
+      "date": "2025-10-21",
+      "status": "Approved",
+      "authorizedBy": null,
+      "totalAward": 0.3369,
+      "icon": "bullseye"
+    }
+  ]
+}
