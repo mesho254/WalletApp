@@ -83,8 +83,8 @@ function Home() {
           </div>
         </div>
       </div>
+        <h2>Latest Transactions</h2>
       <div className="card transactions-card">
-        <h3>Latest Transactions</h3>
         {data!.transactions.slice(0, 10).map(tx => {
           const currentDay = getDisplayDate(tx.date, new Date('2025-10-22'));
           let header = null;

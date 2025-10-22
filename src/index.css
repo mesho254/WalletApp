@@ -84,7 +84,7 @@ body {
 .no-payment-icon {
   color: gray;
   font-size: 40px;
-  margin-left: 60px
+  margin-left: 100px
 }
 
 .daily-points-card {
@@ -109,6 +109,15 @@ h3 {
 
 .transactions-card {
   justify-content: flex-start;
+  max-height: 600px;
+  overflow-y: auto; /* Or use 'scroll' if you always want the scroll behavior, even if content fits */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
+
+/* For WebKit browsers like Chrome, Safari, and Opera */
+.transactions-card::-webkit-scrollbar {
+  display: none;
 }
 
 .day-header {
